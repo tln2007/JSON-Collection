@@ -1,0 +1,71 @@
+#characterGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80vw;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4vw;
+  background-color: white;
+}
+
+.gridContentItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2vw;
+  margin: .7vw;
+  border-width: .6vw;
+  border-style: solid;
+}
+
+.characterImage {
+  width: 50%;
+  max-height: 20vw;
+  object-fit: cover;
+  border-radius: 2vw;
+  border-width: .6vw;
+  border-style: solid;
+}
+
+h1 {
+  font-family: avatar;
+  font-size: 2vw;
+  text-align: center;
+  margin: 3vw;
+}
+
+#logo {
+  width: 40vw;
+  display: flex;
+  position: relative;
+  top: 2vw;
+}
+
+h2 {
+  font-family: avatar;
+  text-align: center;
+  font-size: 2vw;
+  margin: 3vw 0;
+}
+
+p {
+  font-family: avatar;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0;
+  margin-top: 1.5vw;
+}
+
+ul {
+  font-family: avatar;
+  padding-bottom: 2vw;
+}
+
+@font-face {
+  font-family: avatar;
+  src: url("avatar.ttf");
+}
